@@ -1,15 +1,10 @@
 # Ejercicio 2: calificación (if / elif / else)
 nota = float(input("Introduce la nota (0-10): "))
 
-<<<<<<< HEAD
-if nota < 5:
-    calificacion = "Insuficiente"
-=======
 if nota < 0 or nota > 10:
     calificacion = "Nota no válida"
 elif nota < 5:
     calificacion = "Suspenso"
->>>>>>> validar-nota
 elif nota < 6:
     calificacion = "Suficiente"
 elif nota < 7:
