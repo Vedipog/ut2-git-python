@@ -11,6 +11,6 @@ match opcion:
     case "2":
         print("¡Adiós!")
     case "3":
-        print("Saliendo...")
+        print("Hasta pronto")
     case _:
         print("Opción no válida")
