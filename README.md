@@ -19,3 +19,6 @@ Autor: Gabriel
 ## Notas
 
 Repositorio de prácticas de la UT2.
+
+
+Ver [CONTRIBUTING.md](CONTRIBUTING.md) para contribuir al proyecto.
