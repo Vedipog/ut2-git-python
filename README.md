@@ -15,3 +15,7 @@ Autor: Gabriel
 | ej06_suma_pares.py | for + continue |
 | ej07_fizzbuzz.py | for + if/elif |
 | ej08_contrasena.py | while + else |
+
+## Notas
+
+Repositorio de prácticas de la UT2.
