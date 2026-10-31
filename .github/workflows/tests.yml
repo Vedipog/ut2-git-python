@@ -1,0 +1,27 @@
+name: Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar el código del repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ejecutar cada ejercicio con una entrada de prueba
+        run: |
+          echo "4" | python3 ej01_par_impar.py
+          echo "8.5" | python3 ej02_calificacion.py
+          echo "7" | python3 ej03_tabla_multiplicar.py
+          echo "10" | python3 ej06_suma_pares.py
